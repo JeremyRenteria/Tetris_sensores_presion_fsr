@@ -1,4 +1,5 @@
 📋 Descripción General
+
 Implementación del clásico juego Tetris en una ESP32 con interfaz web, pantalla OLED y control mediante sensor de presión FSR.
 
 🛠️ Hardware Requerido
