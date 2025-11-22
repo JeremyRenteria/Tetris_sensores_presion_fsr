@@ -11,12 +11,9 @@ Sensor FSR402 (Force Sensitive Resistor)
 
 Conexiones WiFi
 
-ESP32 ↔ OLED Display (I2C):
-  SDA → GPIO 21
-  SCL → GPIO 22
-  VCC → 3.3V
-  GND → GND
 
-ESP32 ↔ Sensor FSR:
-  FSR → GPIO 34 (ADC1_CH6)
-  Resistencia pull-down: 10KΩ
+Componente	Pin ESP32	Descripción
+SDA	GPIO 21	Datos I2C
+SCL	GPIO 22	Reloj I2C
+VCC	3.3V	Alimentación
+GND	GND	Tierra
